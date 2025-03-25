@@ -1,4 +1,6 @@
-package cas1;
+// cSpell:disable
+
+// package cas1;
 
 import java.time.LocalDate;
 

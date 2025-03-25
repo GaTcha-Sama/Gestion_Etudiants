@@ -1,4 +1,6 @@
-package cas1;
+// cSpell:disable
+
+// package cas1;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -80,7 +82,7 @@ public class GestionEtudiants {
 
     private static void afficherParMerite() {
         Etudiant[] copie = Arrays.copyOf(etudiants, etudiants.length);
-        Arrays.sort(copie, Comparator.comparingDouble(Etudiant::getMoyenne).reversed());
+        Arrays.sort(copie, Comparator.comparingDouble(Etudiant::getMoyenne));
         
         System.out.println("\nListe des etudiants par ordre de merite:");
         for (Etudiant etudiant : copie) {
